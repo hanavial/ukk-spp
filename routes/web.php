@@ -41,12 +41,6 @@ Route::group(['prefix' => 'admin','middleware' => 'auth:admin'], function () {
     Route::resource('/kelas', 'KelasController');
     Route::resource('/user', 'UserController');
 });
-
-
-
-
-
-
 /*
 Auth::routes();
 Route::view('/', 'welcome');
