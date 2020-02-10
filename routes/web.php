@@ -26,7 +26,6 @@ Route::group(['middleware' => 'auth'], function () {
     Route::resource('/kelas', 'KelasController');
 });
 
-
 //Auth Admin
 Route::get('/login/admin', 'Auth\LoginController@showAdminLoginForm');
 Route::get('/register/admin', 'Auth\RegisterController@showAdminRegisterForm');
