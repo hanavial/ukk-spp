@@ -8,7 +8,7 @@
                     <i class="pe-7s-user icon-gradient bg-mean-fruit">
                     </i>
                 </div>
-                <div>Edit User
+                <div>Edit User <b>{{$user->name}}</b> 
                     <div class="page-title-subheading">Mengedit User
                     </div>
                 </div>
@@ -20,7 +20,7 @@
             </div>
         </div>
     </div>
-    <form method="POST" action="" enctype="multipart/form-data">
+    <form method="POST" action="{{route('user.update',$user->id)}}" enctype="multipart/form-data">
         {{ csrf_field() }}
         {{ method_field('put')}}
         <div class="row">
@@ -63,7 +63,7 @@
                         <div class="form-group{{ $errors->has('password') ? ' has-error' : '' }}">
                             <label for="password" class="col-md-4 control-label">Password</label>
                             <div class="col-md-12">
-                                <input id="password" type="password"  class="form-control" name="password" value="" required>
+                                <input id="password" type="password"  class="form-control" name="password" value="{{$user->password}}" readonly>
                                 @if ($errors->has('password'))
                                     <span class="help-block">
                                         <strong>{{ $errors->first('password') }}</strong>
@@ -86,9 +86,11 @@
                             <label for="level" class="col-md-4 control-label">Level</label>
                             <div class="col-md-8">
                                 <select name="level" id="" class="form-control">
-                                    <option value="">--Pilih--</option>
+                                    <option value="{{$user->id_level}}">{{$user->level->nama}}</option>
                                     @foreach($level as $l)
-                                        <option value="{{$l->id}}">{{$l->nama}}</option>
+                                            @if ($l->id != $user->id_level)
+                                                <option value="{{$l->id}}">{{$l->nama}}</option>
+                                            @endif
                                     @endforeach
                                 </select>
                                 @if ($errors->has('level'))
@@ -102,9 +104,11 @@
                             <label for="kelas" class="col-md-4 control-label">Kelas</label>
                             <div class="col-md-8">
                                 <select name="kelas" id="" class="form-control">
-                                    <option value="">--Pilih--</option>
+                                    <option value="{{$user->id_kelas}}">{{$user->kelas->kelas}}</option>
                                     @foreach($kelas as $k)
-                                        <option value="{{$k->id}}">{{$k->kelas}}</option>
+                                        @if ($k->id != $user->id_kelas)
+                                            <option value="{{$k->id}}">{{$k->kelas}}</option>
+                                        @endif
                                     @endforeach
                                 </select>
                                 @if ($errors->has('kelas'))

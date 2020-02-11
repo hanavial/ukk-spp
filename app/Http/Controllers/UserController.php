@@ -52,7 +52,6 @@ class UserController extends Controller
             'email' => 'required',
             'password' => 'required',
             'tahun_masuk' => 'required',
-
         ]);
 
         User::create([
@@ -102,7 +101,16 @@ class UserController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $this->validate($request, [
+            'username' => 'required',
+            'name' => 'required',
+            'email' => 'required',
+            'password' => 'required',
+            'tahun_masuk' => 'required',
+        ]);
+
+        User::find($id)->update($request->all());
+        return redirect()->route('user.index');
     }
 
     /**
