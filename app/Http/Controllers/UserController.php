@@ -51,7 +51,7 @@ class UserController extends Controller
             'name' => 'required',
             'email' => 'required',
             'password' => 'required',
-            //'tahun_masuk' => 'required',
+            'tahun_masuk' => 'required',
 
         ]);
 
@@ -59,8 +59,8 @@ class UserController extends Controller
             'username' => $request->input('username'),
             'name' => $request->input('name'),
             'email' => $request->input('email'),
-            'password' => bcrypt(($request->input('password'))),
-            'tahun_masuk' => $request->input('tahun_ajaran'),
+            'password' => bcrypt($request->input('password')),
+            'tahun_masuk' => $request->input('tahun_masuk'),
             'id_level' => $request->input('level'),
             'id_kelas' => $request->input('kelas'),
         ]);
