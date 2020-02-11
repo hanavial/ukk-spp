@@ -58,7 +58,7 @@
                                 <td class="text-center">{{$u->kelas->kelas}}</td>
                                 <td class="text-center">
                                     <div class="columns">
-                                        <a href="" class="mr-2 btn-wide btn btn-info">Edit</a>
+                                        <a href="{{route('user.edit', $u->id)}}" class="mr-2 btn-wide btn btn-info">Edit</a>
                                         <a href="" class="mr-2 btn-icon btn-icon-only btn btn-danger" data-toggle="modal" data-target="#modelId" onclick="prepare({{$u->id}})"><i class="pe-7s-trash btn-icon-wrapper"> </i></a>
                                     </div>
                                 </td>

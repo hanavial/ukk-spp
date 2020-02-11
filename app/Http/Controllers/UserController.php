@@ -87,8 +87,10 @@ class UserController extends Controller
      */
     public function edit($id)
     {
+        $level = Level::all();
+        $kelas = Kelas::all();
         $user = User::findOrFail($id);
-        return view('admin.user.edit',compact('user'));
+        return view('admin.user.edit',compact('level','kelas','user'));
     }
 
     /**
