@@ -68,6 +68,19 @@
                             Pembayaran
                         </a>
                     </li>
+                    @else
+                    <li>
+                        <a href="" class="">
+                            <i class="metismenu-icon pe-7s-cash"></i>
+                            Pembayaran
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="">
+                            <i class="metismenu-icon pe-7s-date"></i>
+                            Riwayat
+                        </a>
+                    </li>
                 @endif
                 <li>
                     <a href="">
