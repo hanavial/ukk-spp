@@ -84,11 +84,11 @@
             <div class="card mb-3 widget-content bg-arielle-smile">
                 <div class="widget-content-wrapper text-white">
                     <div class="widget-content-left">
-                        <div class="widget-heading">Clients</div>
-                        <div class="widget-subheading">Total Clients Profit</div>
+                        <div class="widget-heading">User</div>
+                        <div class="widget-subheading">Jumlah User</div>
                     </div>
                     <div class="widget-content-right">
-                        <div class="widget-numbers text-white"><span>$ 568</span></div>
+                        <div class="widget-numbers text-white"><span>{{$user->count()}}</span></div>
                     </div>
                 </div>
             </div>

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use App\Kelas;
@@ -20,7 +21,8 @@ class AdminController extends Controller
     public function index()
     {
         $kelas = Kelas::all();
-        return view('admin', compact('kelas'));
+        $user = User::all();
+        return view('admin', compact('kelas','user'));
     }
 
     /**

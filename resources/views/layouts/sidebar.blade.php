@@ -62,6 +62,12 @@
                             Kelas
                         </a>
                     </li>
+                    <li>
+                        <a href="" class="">
+                            <i class="metismenu-icon pe-7s-cash"></i>
+                            Pembayaran
+                        </a>
+                    </li>
                 @endif
                 <li>
                     <a href="">

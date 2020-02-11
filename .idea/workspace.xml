@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e9b28be-b8b1-44a0-9064-1c6b63acb68a" name="Default Changelist" comment="">
+    <list default="true" id="9e9b28be-b8b1-44a0-9064-1c6b63acb68a" name="Default Changelist" comment="commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/sidebar.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,12 +178,25 @@
       <workItem from="1581038710521" duration="7021000" />
       <workItem from="1581065211788" duration="4602000" />
       <workItem from="1581132111039" duration="6476000" />
-      <workItem from="1581341626544" duration="310000" />
+      <workItem from="1581341626544" duration="1452000" />
+      <workItem from="1581417837536" duration="296000" />
     </task>
+    <task id="LOCAL-00001" summary="commit">
+      <created>1581342135037</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581342135037</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="23" key="#Inspections" timestamp="1579671366544">
@@ -207,6 +220,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="367" y="20" width="645" height="688" key="#phpunit.xml/0.0.1366.728@0.0.1366.728" timestamp="1579232789933" />
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1581342376208">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="308" y="0" key="CommitChangelistDialog2/-1366.0.1366.728/0.0.1366.728@0.0.1366.728" timestamp="1581342376208" />
     <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1579077934921">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -215,12 +232,24 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="7" key="SettingsEditor/-1366.0.1366.728/0.0.1366.728@0.0.1366.728" timestamp="1581066702101" />
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1581132161876">
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1581342388630">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2/-1366.0.1366.728/0.0.1366.728@0.0.1366.728" timestamp="1581342388630" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1581417838867">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="379" y="189" key="com.intellij.ide.util.TipDialog/-1366.0.1366.728/0.0.1366.728@-1366.0.1366.728" timestamp="1579617156659" />
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/-1366.0.1366.728/0.0.1366.728@0.0.1366.728" timestamp="1581132161876" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/-1366.0.1366.728/0.0.1366.728@0.0.1366.728" timestamp="1581417838867" />
     <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1581038715491" />
+    <state x="492" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581417854745">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="492" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1366.0.1366.728/0.0.1366.728@0.0.1366.728" timestamp="1581417854745" />
+    <state x="412" y="156" key="git4idea.merge.GitPullDialog" timestamp="1581417868885">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="412" y="156" key="git4idea.merge.GitPullDialog/-1366.0.1366.728/0.0.1366.728@0.0.1366.728" timestamp="1581417868885" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1581132376811">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
