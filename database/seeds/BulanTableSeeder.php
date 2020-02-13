@@ -37,7 +37,7 @@ class BulanTableSeeder extends Seeder
         ]);
 
         Bulan::create([
-            'nama' => 'juli'
+            'nama' => 'Juli'
         ]);
 
         Bulan::create([
