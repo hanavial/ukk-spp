@@ -1,9 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e9b28be-b8b1-44a0-9064-1c6b63acb68a" name="Default Changelist" comment="">
+    <list default="true" id="9e9b28be-b8b1-44a0-9064-1c6b63acb68a" name="Default Changelist" comment="sidebar">
+      <change afterPath="$PROJECT_DIR$/database/mig/2020_01_16_000001_create_status_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/mig/2020_01_16_000002_create_bulan_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/mig/2020_01_16_000003_create_detail_bulan_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/mig/2020_01_17_000001_create_admin_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/mig/2020_01_17_000002_create_kelas_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/mig/2020_01_17_000003_create_level_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/mig/2020_01_17_000004_create_spp_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/mig/2020_01_17_000005_create_users_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/mig/2020_01_17_000006_create_transaksi_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/mig/2020_01_17_000007_create_detail_transaksi_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/sedd/AdminTableSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/sedd/DatabaseSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/sedd/DetailTransaksiTableSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/sedd/KelasTableSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/sedd/LevelTableSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/sedd/SppTableSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/sedd/StatusTableSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/sedd/TransaksiTableSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/sedd/UserTableSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/sidebar.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +39,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -114,7 +133,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../laravel-api" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/database/mig" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
@@ -179,7 +198,9 @@
       <workItem from="1581065211788" duration="4602000" />
       <workItem from="1581132111039" duration="6476000" />
       <workItem from="1581341626544" duration="1452000" />
-      <workItem from="1581417837536" duration="1224000" />
+      <workItem from="1581417837536" duration="2268000" />
+      <workItem from="1581497099853" duration="1798000" />
+      <workItem from="1581560609425" duration="211000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1581342135037</created>
@@ -195,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581418296638</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="sidebar">
+      <created>1581419218364</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1581419218364</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,7 +232,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
     <MESSAGE value="user" />
-    <option name="LAST_COMMIT_MESSAGE" value="user" />
+    <MESSAGE value="sidebar" />
+    <option name="LAST_COMMIT_MESSAGE" value="sidebar" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="23" key="#Inspections" timestamp="1579671366544">
@@ -228,10 +257,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="367" y="20" width="645" height="688" key="#phpunit.xml/0.0.1366.728@0.0.1366.728" timestamp="1579232789933" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1581418294628">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1581499334977">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/-1366.0.1366.728/0.0.1366.728@0.0.1366.728" timestamp="1581418294628" />
+    <state x="308" y="0" key="CommitChangelistDialog2/-1366.0.1366.728/0.0.1366.728@0.0.1366.728" timestamp="1581499334977" />
     <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1579077934921">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -240,20 +269,20 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="7" key="SettingsEditor/-1366.0.1366.728/0.0.1366.728@0.0.1366.728" timestamp="1581066702101" />
-    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1581342388630">
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1581498885453">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="98" key="Vcs.Push.Dialog.v2/-1366.0.1366.728/0.0.1366.728@0.0.1366.728" timestamp="1581342388630" />
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1581417838867">
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2/-1366.0.1366.728/0.0.1366.728@0.0.1366.728" timestamp="1581498885453" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1581560662254">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="379" y="189" key="com.intellij.ide.util.TipDialog/-1366.0.1366.728/0.0.1366.728@-1366.0.1366.728" timestamp="1579617156659" />
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/-1366.0.1366.728/0.0.1366.728@0.0.1366.728" timestamp="1581417838867" />
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1581038715491" />
-    <state x="492" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581417854745">
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/-1366.0.1366.728/0.0.1366.728@0.0.1366.728" timestamp="1581498869008" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1581560662254" />
+    <state x="492" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581499320178">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="492" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1366.0.1366.728/0.0.1366.728@0.0.1366.728" timestamp="1581417854745" />
+    <state x="492" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1366.0.1366.728/0.0.1366.728@0.0.1366.728" timestamp="1581499320178" />
     <state x="412" y="156" key="git4idea.merge.GitPullDialog" timestamp="1581417868885">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
