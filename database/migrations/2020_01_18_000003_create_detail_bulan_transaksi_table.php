@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateTransaksiTable extends Migration
+class CreateDetailBulanTransaksiTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,17 +13,17 @@ class CreateTransaksiTable extends Migration
      */
     public function up()
     {
-        Schema::create('transaksi', function (Blueprint $table) {
+        Schema::create('detail_bulan_transaksi', function (Blueprint $table) {
             $table->increments('id');
+            $table->integer('id_transaksi')->unsigned();
+            //$table->foreign('id_transaksi');
             $table->integer('id_user')->unsigned();
             $table->foreign('id_user')->references('id')->on('user')->onDelete('cascade');
             $table->integer('id_admin')->unsigned();
             $table->foreign('id_admin')->references('id')->on('admin')->onDelete('cascade');
-            $table->date('date');
-            $table->text('bukti');
-            $table->text('keterangan');
-            $table->integer('id_spp')->unsigned();
-            $table->foreign('id_spp')->references('id')->on('spp')->onDelete('cascade');
+            $table->integer('id_bulan')->unsigned();
+            $table->foreign('id_bulan')->references('id')->on('bulan')->onDelete('cascade');
+            $table->string('attr');
             $table->timestamps();
         });
     }
@@ -35,6 +35,6 @@ class CreateTransaksiTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('transaksi');
+        Schema::dropIfExists('detail_bulan');
     }
 }
