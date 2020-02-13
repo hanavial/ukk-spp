@@ -113,6 +113,22 @@
                                 @endif
                             </div>
                         </div>
+                        <div class="form-group{{ $errors->has('spp') ? ' has-error' : '' }}">
+                            <label for="spp" class="col-md-4 control-label">Spp</label>
+                            <div class="col-md-8">
+                                <select name="spp" id="" class="form-control">
+                                    <option value="">--Pilih Spp--</option>
+                                    @foreach($spp as $s)
+                                        <option value="{{$s->id}}">{{$s->nama}}</option>
+                                    @endforeach
+                                </select>
+                                @if ($errors->has('spp'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('spp') }}</strong>
+                                    </span>
+                                @endif
+                            </div>
+                        </div>
                         <div class="form-group">
                             <div class="col-md-12">
                                 <button type="submit" class="btn btn-primary" id="submit">

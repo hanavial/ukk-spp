@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="9e9b28be-b8b1-44a0-9064-1c6b63acb68a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/user/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/user/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/user/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/user/edit.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +188,7 @@
       <workItem from="1581341626544" duration="1452000" />
       <workItem from="1581417837536" duration="2268000" />
       <workItem from="1581497099853" duration="1798000" />
-      <workItem from="1581560609425" duration="4386000" />
+      <workItem from="1581560609425" duration="4983000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1581342135037</created>
@@ -229,7 +232,21 @@
       <option name="project" value="LOCAL" />
       <updated>1581564555216</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="update migration and seeder">
+      <created>1581565116132</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1581565116132</updated>
+    </task>
+    <task id="LOCAL-00008" summary="update migration and seeder">
+      <created>1581565144737</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1581565144737</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,11 +287,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="367" y="20" width="645" height="688" key="#phpunit.xml/0.0.1366.728@0.0.1366.728" timestamp="1579232789933" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1581565114876">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1581565143736">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="308" y="0" key="CommitChangelistDialog2/-1366.0.1366.728/0.0.1366.728@0.0.1366.728" timestamp="1581499334977" />
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1581565114876" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1581565143736" />
     <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1579077934921">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

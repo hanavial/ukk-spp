@@ -8,7 +8,7 @@
                     <i class="pe-7s-user icon-gradient bg-mean-fruit">
                     </i>
                 </div>
-                <div>Edit User <b>{{$user->name}}</b> 
+                <div>Edit User <b>{{$user->name}}</b>
                     <div class="page-title-subheading">Mengedit User
                     </div>
                 </div>
@@ -114,6 +114,24 @@
                                 @if ($errors->has('kelas'))
                                     <span class="help-block">
                                         <strong>{{ $errors->first('kelas') }}</strong>
+                                    </span>
+                                @endif
+                            </div>
+                        </div>
+                        <div class="form-group{{ $errors->has('spp') ? ' has-error' : '' }}">
+                            <label for="spp" class="col-md-4 control-label">Spp</label>
+                            <div class="col-md-8">
+                                <select name="spp" id="" class="form-control">
+                                    <option value="{{$spp->id_spp}}">{{$user->spp->nama}}</option>
+                                    @foreach($spp as $s)
+                                        @if ($s->id != $user->id_spp)
+                                            <option value="{{$s->id}}">{{$s->nama}}</option>
+                                        @endif
+                                    @endforeach
+                                </select>
+                                @if ($errors->has('spp'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('spp') }}</strong>
                                     </span>
                                 @endif
                             </div>

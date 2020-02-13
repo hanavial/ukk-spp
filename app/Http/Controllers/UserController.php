@@ -2,10 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use App\Spp;
 use App\User;
-use Illuminate\Http\Request;
 use App\Kelas;
 use App\Level;
+use Illuminate\Http\Request;
 
 class UserController extends Controller
 {
@@ -29,7 +30,8 @@ class UserController extends Controller
     {
         $level = Level::all();
         $kelas = Kelas::all();
-        return view('admin.user.create',compact('level','kelas'));
+        $spp = Spp::all();
+        return view('admin.user.create',compact('level','kelas','spp'));
     }
 
     /**
@@ -62,6 +64,7 @@ class UserController extends Controller
             'tahun_masuk' => $request->input('tahun_masuk'),
             'id_level' => $request->input('level'),
             'id_kelas' => $request->input('kelas'),
+            'id_spp' => $request->input('spp')
         ]);
 
         return redirect()->route('user.index');
@@ -88,8 +91,9 @@ class UserController extends Controller
     {
         $level = Level::all();
         $kelas = Kelas::all();
+        $spp = Spp::all();
         $user = User::findOrFail($id);
-        return view('admin.user.edit',compact('level','kelas','user'));
+        return view('admin.user.edit',compact('level','kelas','user','spp'));
     }
 
     /**
