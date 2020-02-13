@@ -17,8 +17,8 @@ class Transaksi extends Model
         return $this->hasOne('App\Admin','id','id_admin');
     }
 
-    public function status(){
-        return $this->hasOne('App\Status','id','id_status');
+    public function spp(){
+        return $this->hasOne('App\Spp','id','id_spp');
     }
 
 }

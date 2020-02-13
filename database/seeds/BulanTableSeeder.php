@@ -1,8 +1,9 @@
 <?php
 
 use Illuminate\Database\Seeder;
+use App\Bulan;
 
-class DetailTransaksiTableSeeder extends Seeder
+class BulanTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -11,6 +12,8 @@ class DetailTransaksiTableSeeder extends Seeder
      */
     public function run()
     {
-        //
+        Bulan::create([
+            'nama' => 'Januari'
+        ]);
     }
 }

@@ -1,32 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e9b28be-b8b1-44a0-9064-1c6b63acb68a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_01_18_000003_create_detail_bulan_transaksi_table.php" afterDir="false" />
+    <list default="true" id="9e9b28be-b8b1-44a0-9064-1c6b63acb68a" name="Default Changelist" comment="update migration">
+      <change afterPath="$PROJECT_DIR$/app/Bulan.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/DetailBulanTransaksi.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/mig/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/backmig/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/mig/2020_01_16_000001_create_status_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/backmig/2020_01_16_000001_create_status_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/mig/2020_01_16_000002_create_bulan_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/backmig/2020_01_16_000002_create_bulan_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/mig/2020_01_16_000003_create_detail_bulan_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/backmig/2020_01_16_000003_create_detail_bulan_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/mig/2020_01_17_000001_create_admin_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/backmig/2020_01_17_000001_create_admin_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/mig/2020_01_17_000002_create_kelas_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/backmig/2020_01_17_000002_create_kelas_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/mig/2020_01_17_000003_create_level_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/backmig/2020_01_17_000003_create_level_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/mig/2020_01_17_000004_create_spp_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/backmig/2020_01_17_000004_create_spp_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/mig/2020_01_17_000005_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/backmig/2020_01_17_000005_create_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/mig/2020_01_17_000006_create_transaksi_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/backmig/2020_01_17_000006_create_transaksi_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/mig/2020_01_17_000007_create_detail_transaksi_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/backmig/2020_01_17_000007_create_detail_transaksi_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_01_16_000003_create_detail_bulan_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_01_17_000005_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_01_17_000005_create_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_01_17_000006_create_transaksi_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_01_17_000006_create_transaksi_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/sedd/AdminTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/backseed/AdminTableSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/sedd/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/backseed/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/sedd/DetailTransaksiTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/backseed/DetailTransaksiTableSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/sedd/KelasTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/backseed/KelasTableSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/sedd/LevelTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/backseed/LevelTableSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/sedd/SppTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/backseed/SppTableSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/sedd/StatusTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/backseed/StatusTableSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/sedd/TransaksiTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/backseed/TransaksiTableSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/sedd/UserTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/backseed/UserTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Transaksi.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Transaksi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_01_17_000007_create_detail_transaksi_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DetailTransaksiTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/BulanTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/UserTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/UserTableSeeder.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,7 +193,7 @@
       <workItem from="1581341626544" duration="1452000" />
       <workItem from="1581417837536" duration="2268000" />
       <workItem from="1581497099853" duration="1798000" />
-      <workItem from="1581560609425" duration="1644000" />
+      <workItem from="1581560609425" duration="3919000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1581342135037</created>
@@ -239,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581560861977</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update migration">
+      <created>1581562382557</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1581562382557</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,7 +241,8 @@
     <MESSAGE value="user" />
     <MESSAGE value="sidebar" />
     <MESSAGE value="backup database" />
-    <option name="LAST_COMMIT_MESSAGE" value="backup database" />
+    <MESSAGE value="update migration" />
+    <option name="LAST_COMMIT_MESSAGE" value="update migration" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="23" key="#Inspections" timestamp="1579671366544">
@@ -265,6 +257,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="363" y="93" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/-1366.0.1366.728/0.0.1366.728@0.0.1366.728" timestamp="1580992359005" />
+    <state x="437" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1581562703912">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="437" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1581562703912" />
     <state x="413" y="120" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1581341813127">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -274,11 +270,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="367" y="20" width="645" height="688" key="#phpunit.xml/0.0.1366.728@0.0.1366.728" timestamp="1579232789933" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1581560859339">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1581562424813">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="308" y="0" key="CommitChangelistDialog2/-1366.0.1366.728/0.0.1366.728@0.0.1366.728" timestamp="1581499334977" />
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1581560859339" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1581562424813" />
     <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1579077934921">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -287,11 +283,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="7" key="SettingsEditor/-1366.0.1366.728/0.0.1366.728@0.0.1366.728" timestamp="1581066702101" />
-    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1581560872845">
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1581562416499">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="98" key="Vcs.Push.Dialog.v2/-1366.0.1366.728/0.0.1366.728@0.0.1366.728" timestamp="1581498885453" />
-    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1581560872845" />
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1581562416499" />
     <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1581560662254">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

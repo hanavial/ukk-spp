@@ -48,4 +48,8 @@ class User extends Authenticatable
     public function kelas(){
         return $this->hasOne('App\Kelas','id','id_kelas');
     }
+
+    public function spp(){
+        return $this->hasOne('App\Spp','id','id_spp');
+    }
 }

@@ -20,7 +20,8 @@ class UserTableSeeder extends Seeder
             'password' => Hash::make('user'),
             'tahun_masuk' => '2017',
             'id_level' => 3,
-            'id_kelas' => 3
+            'id_kelas' => 3,
+            'id_spp' => 1
         ]);
     }
 }
