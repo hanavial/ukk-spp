@@ -122,7 +122,7 @@
                             <label for="spp" class="col-md-4 control-label">Spp</label>
                             <div class="col-md-8">
                                 <select name="spp" id="" class="form-control">
-                                    <option value="{{$spp->id_spp}}">{{$user->spp->nama}}</option>
+                                    <option value="{{$user->id_spp}}">{{$user->spp->nama}}</option>
                                     @foreach($spp as $s)
                                         @if ($s->id != $user->id_spp)
                                             <option value="{{$s->id}}">{{$s->nama}}</option>
