@@ -15,5 +15,49 @@ class BulanTableSeeder extends Seeder
         Bulan::create([
             'nama' => 'Januari'
         ]);
+
+        Bulan::create([
+            'nama' => 'Februari'
+        ]);
+
+        Bulan::create([
+            'nama' => 'Maret'
+        ]);
+
+        Bulan::create([
+            'nama' => 'April'
+        ]);
+
+        Bulan::create([
+            'nama' => 'Mei'
+        ]);
+
+        Bulan::create([
+            'nama' => 'Juni'
+        ]);
+
+        Bulan::create([
+            'nama' => 'juli'
+        ]);
+
+        Bulan::create([
+            'nama' => 'Agustus'
+        ]);
+
+        Bulan::create([
+            'nama' => 'September'
+        ]);
+
+        Bulan::create([
+            'nama' => 'Oktober'
+        ]);
+
+        Bulan::create([
+            'nama' => 'November'
+        ]);
+
+        Bulan::create([
+            'nama' => 'Desember'
+        ]);
     }
 }
