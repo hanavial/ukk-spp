@@ -22,7 +22,8 @@ Route::get('/', 'HomeController@index');
 Route::get('/home', 'HomeController@index');
 
 //User
-Route::group(['middleware' => 'auth'], function () {
+Route::group(['middleware' => 'auth','prefix' => 'user'], function () {
+    Route::get('/transaksi', 'TransaksiController@index');
     Route::resource('/kelas', 'KelasController');
 });
 

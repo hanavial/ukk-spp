@@ -76,7 +76,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="" class="">
+                        <a href="{{url('user/transaksi')}}" class="mm-{{ setActive(['user/transaksi*']) }}">
                             <i class="metismenu-icon pe-7s-date"></i>
                             Riwayat
                         </a>

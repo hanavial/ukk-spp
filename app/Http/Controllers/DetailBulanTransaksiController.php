@@ -2,26 +2,24 @@
 
 namespace App\Http\Controllers;
 
-use App\Transaksi;
 use Illuminate\Http\Request;
 
-class TransaksiController extends Controller
+class DetailBulanTransaksiController extends Controller
 {
     /**
      * Display a listing of the resource.
      *
-     * @return
+     * @return \Illuminate\Http\Response
      */
     public function index()
     {
-        $transaksi = Transaksi::with('user','admin','spp')->get();
-        return view('user.transaksi.index',compact('transaksi'));
+        //
     }
 
     /**
      * Show the form for creating a new resource.
      *
-     * @return
+     * @return \Illuminate\Http\Response
      */
     public function create()
     {
@@ -31,8 +29,8 @@ class TransaksiController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @param
-     * @return
+     * @param  \Illuminate\Http\Request  $request
+     * @return \Illuminate\Http\Response
      */
     public function store(Request $request)
     {
@@ -42,8 +40,8 @@ class TransaksiController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param
-     * @return
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
      */
     public function show($id)
     {
@@ -53,8 +51,8 @@ class TransaksiController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param
-     * @return
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
      */
     public function edit($id)
     {
@@ -64,9 +62,9 @@ class TransaksiController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param
-     * @param
-     * @return
+     * @param  \Illuminate\Http\Request  $request
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
      */
     public function update(Request $request, $id)
     {
@@ -76,8 +74,8 @@ class TransaksiController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param
-     * @return
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
      */
     public function destroy($id)
     {
