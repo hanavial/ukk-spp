@@ -31,45 +31,47 @@
                         </div>
                     </div>
                 </div>
-                <div class="table-responsive">
-                    <table class="align-middle mb-0 table table-borderless table-striped table-hover" id="dataTable">
-                        <thead>
-                        <tr>
-                            <th class="text-center">No</th>
-                            <th class="text-center">Nama</th>
-                            <th class="text-center">Email</th>
-                            <th class="text-center">Tahun Masuk</th>
-                            <th class="text-center">Level</th>
-                            <th class="text-center">Kelas</th>
-                            <th class="text-center">Actions</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        @php
-                            $i=1
-                        @endphp
-                        @foreach($user as $u)
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="align-middle mb-0 table table-borderless table-striped table-hover" id="dataTable">
+                            <thead>
                             <tr>
-                                <td class="text-center text-muted">{{$i++}}</td>
-                                <td class="text-center">{{$u->name}}</td>
-                                <td class="text-center">{{$u->email}}</td>
-                                <td class="text-center">{{$u->tahun_masuk}}</td>
-                                <td class="text-center">{{$u->level->nama}}</td>
-                                <td class="text-center">{{$u->kelas->kelas}}</td>
-                                <td class="text-center">
-                                    <div class="columns">
-                                        <a href="{{route('user.edit', $u->id)}}" class="mr-2 btn-wide btn btn-info">Edit</a>
-                                        <a href="" class="mr-2 btn-icon btn-icon-only btn btn-danger" data-toggle="modal" data-target="#modelId" onclick="prepare({{$u->id}})"><i class="pe-7s-trash btn-icon-wrapper"> </i></a>
-                                    </div>
-                                </td>
+                                <th class="text-center">No</th>
+                                <th class="text-center">Nama</th>
+                                <th class="text-center">Email</th>
+                                <th class="text-center">Tahun Masuk</th>
+                                <th class="text-center">Level</th>
+                                <th class="text-center">Kelas</th>
+                                <th class="text-center">Actions</th>
                             </tr>
-                        @endforeach
-                        </tbody>
-                    </table>
+                            </thead>
+                            <tbody>
+                            @php
+                                $i=1
+                            @endphp
+                            @foreach($user as $u)
+                                <tr>
+                                    <td class="text-center text-muted">{{$i++}}</td>
+                                    <td class="text-center">{{$u->name}}</td>
+                                    <td class="text-center">{{$u->email}}</td>
+                                    <td class="text-center">{{$u->tahun_masuk}}</td>
+                                    <td class="text-center">{{$u->level->nama}}</td>
+                                    <td class="text-center">{{$u->kelas->kelas}}</td>
+                                    <td class="text-center">
+                                        <div class="columns">
+                                            <a href="{{route('user.edit', $u->id)}}" class="mr-2 btn-wide btn btn-info">Edit</a>
+                                            <a href="" class="mr-2 btn-icon btn-icon-only btn btn-danger" data-toggle="modal" data-target="#modelId" onclick="prepare({{$u->id}})"><i class="pe-7s-trash btn-icon-wrapper"> </i></a>
+                                        </div>
+                                    </td>
+                                </tr>
+                            @endforeach
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
                 <div class="d-block text-center card-footer">
-                    <button class="mr-2 btn-icon btn-icon-only btn btn-outline-danger"><i class="pe-7s-trash btn-icon-wrapper"> </i></button>
-                    <button class="btn-wide btn btn-success">Save</button>
+{{--                    <button class="mr-2 btn-icon btn-icon-only btn btn-outline-danger"><i class="pe-7s-trash btn-icon-wrapper"> </i></button>--}}
+                    <button class="btn-wide btn btn-success">Oke</button>
                 </div>
             </div>
         </div>
