@@ -21,10 +21,7 @@
     * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
     -->
     <link href="{{url('main.css')}}" rel="stylesheet">
-{{--    <link href="{{url('DataTables/DataTables-1.10.20/css/dataTables.bootstrap4.css')}}" rel="stylesheet">--}}
     <link rel="stylesheet" href="{{url('DataTables/datatables.css')}}">
-{{--    <link rel="stylesheet" href="{{url('assets/vendor/datatables.net-bs/css/dataTables.bootstrap.min.css')}}">--}}
-{{--    <link rel="stylesheet" href="{{url('assets/vendor/bootstrap/css/bootstrap.min.css')}}">--}}
 </head>
 <body>
     <div class="app-container app-theme-white body-tabs-shadow fixed-sidebar fixed-header">
@@ -42,11 +39,7 @@
     </div>
     <script type="text/javascript" src="{{url('assets/scripts/main.js')}}"></script>
     <script src="{{url('assets/vendor/jquery/jquery.min.js')}}"></script>
-{{--    <script src="{{url('assets/vendor/bootstrap/js/bootstrap.min.js')}}"></script>--}}
-{{--    <script src="{{url('DataTables/DataTables-1.10.20/js/dataTables.bootstrap4.js')}}"></script>--}}
     <script src="{{url('DataTables/datatables.js')}}"></script>
-{{--    <script src="{{url('assets/vendor/datatables.net/js/jquery.dataTables.min.js')}}"></script>--}}
-{{--    <script src="{{url('assets/vendor/datatables.net-bs/js/dataTables.bootstrap.min.js')}}"></script>--}}
 
     <script>
         $(function() {
