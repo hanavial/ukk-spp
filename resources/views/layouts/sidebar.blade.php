@@ -32,7 +32,7 @@
     <div class="scrollbar-sidebar">
         <div class="app-sidebar__inner">
             <ul class="vertical-nav-menu">
-                <li class="app-sidebar__heading">Dashboards</li>
+                <li class="app-sidebar__heading">Halaman</li>
                 @if(Auth::guard('admin')->check())
                 <li>
                     <a href="{{url('/')}}" class="mm-{{ setActive(['/','admin']) }}">
@@ -48,7 +48,7 @@
                         </a>
                     </li>
                 @endif
-                <li class="app-sidebar__heading">Pages</li>
+{{--                <li class="app-sidebar__heading">Halaman</li>--}}
                 @if(Auth::guard('admin')->check())
                     <li>
                         <a href="{{url('admin/user')}}" class="mm-{{ setActive(['admin/user*']) }}">
@@ -82,12 +82,12 @@
                         </a>
                     </li>
                 @endif
-                <li>
-                    <a href="">
-                        <i class="metismenu-icon pe-7s-browser"></i>
-                        Lain
-                    </a>
-                </li>
+{{--                <li>--}}
+{{--                    <a href="">--}}
+{{--                        <i class="metismenu-icon pe-7s-browser"></i>--}}
+{{--                        Lain--}}
+{{--                    </a>--}}
+{{--                </li>--}}
 {{--                <li class="app-sidebar__heading">UI Components</li>--}}
 {{--                <li>--}}
 {{--                    <a href="">--}}
