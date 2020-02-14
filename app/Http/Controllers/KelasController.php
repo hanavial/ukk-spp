@@ -13,7 +13,7 @@ class KelasController extends Controller
      */
     public function index()
     {
-        $kelas = Kelas::orderBy('tahun_ajaran','desc')->get();
+        $kelas = Kelas::get();
         return view('admin.kelas.index',compact('kelas'));
     }
 
