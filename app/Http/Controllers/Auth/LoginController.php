@@ -28,7 +28,7 @@ class LoginController extends Controller
     /**
      * Show the application's login form.
      *
-     * @return \Illuminate\Http\Response
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
     public function showLoginForm()
     {
@@ -38,10 +38,10 @@ class LoginController extends Controller
     /**
      * Handle a login request to the application.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\RedirectResponse|\Illuminate\Http\Response|\Illuminate\Http\JsonResponse
+     * @param
+     * @return
      *
-     * @throws \Illuminate\Validation\ValidationException
+     * @throws
      */
     public function login(Request $request)
     {
@@ -164,8 +164,8 @@ class LoginController extends Controller
     /**
      * Log the user out of the application.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
+     * @param
+     * @return
      */
     public function logout(Request $request)
     {
@@ -173,7 +173,13 @@ class LoginController extends Controller
 
         $request->session()->invalidate();
 
-        return $this->loggedOut($request) ?: redirect('/login');
+        /*
+        if (!$this->guard()){
+            return $this->loggedOut($request) ?: redirect('/login');
+        }
+        */
+        return $this->loggedOut($request) ?: redirect('/login/admin');
+
     }
 
     /**
