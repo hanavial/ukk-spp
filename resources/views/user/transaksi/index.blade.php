@@ -8,7 +8,7 @@
                     <i class="pe-7s-user icon-gradient bg-mean-fruit">
                     </i>
                 </div>
-                <div>Pembayaran
+                <div>Riwayat
                     <div class="page-title-subheading">Riwayat pembayaran
                     </div>
                 </div>
